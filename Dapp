@@ -13,6 +13,11 @@
         var test = false; // False if contracts are on Mainnet
         var contractAddressSale = '0xE98e25F4861Da26EB520CC39E60fe1B518522dcd';
         var contractAddressToken = '0xd0E4BD040Fba70704269fdD6894d11E12aba4e3C';
+        
+         // mainnet 
+        const web3 = new Web3('https://babel-api.mainnet.iotex.io');
+        // testnet
+        const web3 = new Web3('https://babel-api.testnet.iotex.io');
     </script>
     
     <style>
